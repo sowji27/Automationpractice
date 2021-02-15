@@ -1,0 +1,143 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612888324312' stop='1612888331127'>
+    <name>Account Page: Navigate to my account page</name>
+    <title>Account Page: Navigate to my account page</title>
+    <test-cases>
+        <test-case start='1612888324312' status='passed' stop='1612888324314'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888324314' status='passed' stop='1612888331118'>
+            <name>Hook I enter 'lsowjanya@hotmail.com' in the 'Email address' field</name>
+            <title>Hook I enter 'lsowjanya@hotmail.com' in the 'Email address' field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1612888324317' status='passed' stop='1612888331117'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5f4f0098-6722-4153-a1f0-68f3591f9ac5-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888331119' status='broken' stop='1612888331121'>
+            <name>Given I have clicked the 'Sign in' link</name>
+            <title>Given I have clicked the 'Sign in' link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.click is not a function</message>
+                <stack-trace>TypeError: browser.click is not a function
+                    at World.&lt;anonymous> (C:\Users\ssnsp\Documents\Automation\Step_Definitions\account.js:11:13)
+                    at World.executeSync (C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612888331121' status='pending' stop='1612888331125'>
+            <name>When I enter 'lsowjanya@hotmail.com' in the 'Email address' field</name>
+            <title>When I enter 'lsowjanya@hotmail.com' in the 'Email address' field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888331125' status='pending' stop='1612888331125'>
+            <name>And I enter 'Shruti27' in the 'Password' field</name>
+            <title>And I enter 'Shruti27' in the 'Password' field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888331126' status='broken' stop='1612888331126'>
+            <name>And I click the 'Sign in' button</name>
+            <title>And I click the 'Sign in' button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "And I click the 'Sign in' button" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612888331126' status='broken' stop='1612888331126'>
+            <name>Then the 'my account' text is displayed</name>
+            <title>Then the 'my account' text is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Then the 'my account' text is displayed" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612888331126' status='passed' stop='1612888331127'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

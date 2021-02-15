@@ -1,0 +1,164 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612888528887' stop='1612888540760'>
+    <name>Account Page: Navigate to my account page</name>
+    <title>Account Page: Navigate to my account page</title>
+    <test-cases>
+        <test-case start='1612888528887' status='passed' stop='1612888528889'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888528890' status='passed' stop='1612888540699'>
+            <name>Hook I enter 'lsowjanya@hotmail.com' in the 'Email address' field</name>
+            <title>Hook I enter 'lsowjanya@hotmail.com' in the 'Email address' field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1612888528893' status='passed' stop='1612888540698'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='76502e68-ca24-4820-b953-a6b04b5c63ed-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888540699' status='broken' stop='1612888540753'>
+            <name>Given I have clicked the 'Sign in' link</name>
+            <title>Given I have clicked the 'Sign in' link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps>
+                <step start='1612888540701' status='broken' stop='1612888540753'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='69bb40f3-1e30-49cd-9fe7-bfb0edb73d0c-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //[@id='Sign in'] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//[@id='Sign in']' is not a valid XPath expression.
+                  (Session info: chrome=88.0.4324.150)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //[@id='Sign in'] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//[@id='Sign in']' is not a valid XPath expression.
+                  (Session info: chrome=88.0.4324.150)
+                    at Object.getErrorFromResponseBody (C:\Users\ssnsp\Documents\Automation\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\ssnsp\Documents\Automation\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Browser.$ (C:\Users\ssnsp\Documents\Automation\node_modules\webdriverio\build\commands\browser\$.js:10:17)
+                    at Browser.runCommandWithHooks (C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Browser.runCommandWithHooks (C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Browser.wrapCommandFn (C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at global.$ (C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\runner\build\index.js:114:42)
+                    at World.&lt;anonymous> (C:\Users\ssnsp\Documents\Automation\Step_Definitions\account.js:12:5)
+                    at World.executeSync (C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\ssnsp\Documents\Automation\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612888540753' status='pending' stop='1612888540757'>
+            <name>When I enter 'lsowjanya@hotmail.com' in the 'Email address' field</name>
+            <title>When I enter 'lsowjanya@hotmail.com' in the 'Email address' field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888540757' status='pending' stop='1612888540758'>
+            <name>And I enter 'Shruti27' in the 'Password' field</name>
+            <title>And I enter 'Shruti27' in the 'Password' field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1612888540758' status='broken' stop='1612888540758'>
+            <name>And I click the 'Sign in' button</name>
+            <title>And I click the 'Sign in' button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "And I click the 'Sign in' button" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612888540759' status='broken' stop='1612888540759'>
+            <name>Then the 'my account' text is displayed</name>
+            <title>Then the 'my account' text is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "Then the 'my account' text is displayed" is not definedYou can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>undefined:undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1612888540759' status='passed' stop='1612888540759'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.150'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

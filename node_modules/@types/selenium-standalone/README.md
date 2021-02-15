@@ -1,0 +1,16 @@
+# Installation
+> `npm install --save @types/selenium-standalone`
+
+# Summary
+This package contains type definitions for selenium-standalone (https://github.com/vvo/selenium-standalone).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/selenium-standalone.
+
+### Additional Details
+ * Last updated: Mon, 21 Sep 2020 08:35:10 GMT
+ * Dependencies: [@types/node](https://npmjs.com/package/@types/node)
+ * Global values: none
+
+# Credits
+These definitions were written by [Sander de Waal](https://github.com/SanderDeWaal1992).
